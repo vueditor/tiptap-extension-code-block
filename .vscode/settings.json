@@ -33,6 +33,7 @@
     "bumpp",
     "changelogithub",
     "commitlint",
-    "shiki"
+    "shiki",
+    "vitesse"
   ]
 }
