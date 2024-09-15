@@ -1,23 +1,17 @@
-# typescript-starter
+# Tiptap extension code block
 
-A typescript project startup template
+![GitHub License](https://img.shields.io/github/license/vueditor/tiptap-extension-code-block?style=plastic) ![NPM Version](https://img.shields.io/npm/v/%40vueditor%2Ftiptap-extension-code-block?style=plastic) ![NPM Downloads](https://img.shields.io/npm/dm/%40vueditor%2Ftiptap-extension-code-block?style=plastic)  ![GitHub Repo stars](https://img.shields.io/github/stars/vueditor/tiptap-extension-code-block?style=plastic)
 
-## Features
+A tiptap extension to support code block with [shiki](https://shiki.style/)
 
-- code lint & format with [eslint](https://eslint.org/) and [@antfu/eslint-config](https://www.npmjs.com/package/@antfu/eslint-config)
-- commit lint with [husky](https://typicode.github.io/husky/) and [lint-staged](https://www.npmjs.com/package/lint-staged)
-- build with [unbuild](https://unjs.io/packages/unbuild)
-- release with [bumpp](https://github.com/antfu-collective/bumpp)
+## Installation
 
-## Notice to modify
+```bash
+pnpm add @vueditor/tiptap-extension-code-block
+```
 
-- README.md
-- LICENSE
-- package.json
-  - name
-  - description
-  - author
-  - license
-  - keywords
-  - bugs
-  - homepage
+or
+
+```bash
+npm install @vueditor/tiptap-extension-code-block
+```
