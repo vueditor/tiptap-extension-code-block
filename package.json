@@ -38,7 +38,7 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.5.0",
+    "@antfu/eslint-config": "^3.5.1",
     "@commitlint/cli": "^19.4.1",
     "@commitlint/config-conventional": "^19.4.1",
     "@commitlint/cz-commitlint": "^19.4.0",
