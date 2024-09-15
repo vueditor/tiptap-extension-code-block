@@ -1,4 +1,4 @@
-import { findChildren, findChildrenInRange, getChangedRanges } from '@tiptap/core'
+import { createStyleTag, findChildren, findChildrenInRange, getChangedRanges } from '@tiptap/core'
 import CodeBlock from '@tiptap/extension-code-block'
 import { Plugin, PluginKey } from '@tiptap/pm/state'
 import { Decoration, DecorationSet } from '@tiptap/pm/view'
@@ -17,6 +17,7 @@ import type { CodeBlockOptions as TiptapCodeBlockOptions } from '@tiptap/extensi
 import type { Node } from '@tiptap/pm/model'
 import type { DecorationAttrs } from '@tiptap/pm/view'
 import type { HighlighterCore, LanguageRegistration, ThemeRegistrationRaw } from 'shiki/core'
+import { style } from './style'
 
 export interface CodeBlockOptions extends TiptapCodeBlockOptions {
   languages: LanguageRegistration[][]
@@ -142,5 +143,8 @@ export const codeBlock = CodeBlock.extend<CodeBlockOptions, CodeBlockStorage>({
         },
       }),
     ]
+  },
+  onBeforeCreate() {
+    createStyleTag(style, undefined, this.name)
   },
 })
