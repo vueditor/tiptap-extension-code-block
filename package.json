@@ -6,7 +6,7 @@
   "description": "A tiptap extension to support code block with shiki",
   "author": "litingyes <luz.liting@gmail.com> (https://litingyes.top/)",
   "license": "MIT",
-  "homepage": "https://github.com/vueditor/tiptap-extension-code-block#readme",
+  "homepage": "https://vueditor.litingyes.top",
   "bugs": {
     "url": "https://github.com/vueditor/tiptap-extension-code-block/issues"
   },

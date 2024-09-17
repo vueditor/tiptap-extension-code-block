@@ -2,7 +2,7 @@
 
 ![GitHub License](https://img.shields.io/github/license/vueditor/tiptap-extension-code-block?style=plastic) ![NPM Version](https://img.shields.io/npm/v/%40vueditor%2Ftiptap-extension-code-block?style=plastic) ![NPM Downloads](https://img.shields.io/npm/dm/%40vueditor%2Ftiptap-extension-code-block?style=plastic)  ![GitHub Repo stars](https://img.shields.io/github/stars/vueditor/tiptap-extension-code-block?style=plastic)
 
-A tiptap extension to support code block with [shiki](https://shiki.style/)
+A tiptap extension to support code block with [shiki](https://shiki.style/), read the [docs](https://vueditor.litingyes.top/) to learn more.
 
 ## Installation
 
